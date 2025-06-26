@@ -12,9 +12,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-zc4q=8%f%45m@r_t^%+yo$7!z3k%_c_wn4ta0%y8t#p($#=f68"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("RENDER", "") != "true"
+# DEBUG = os.environ.get("RENDER", "") != "true"
+DEBUG = True
 
-ALLOWED_HOSTS = ["gifthit.onrender.com"]
+ALLOWED_HOSTS = ["gifthit.onrender.com", "127.0.0.1"]
 
 
 # Application definition
@@ -45,7 +46,7 @@ ROOT_URLCONF = "gifthit.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "frontend", "build")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -108,9 +109,9 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "react", "build", "static"),
+    os.path.join(BASE_DIR, "frontend", "build", "static"),
 ]
-TEMPLATES[0]["DIRS"] = [os.path.join(BASE_DIR, "react", "build")]
+TEMPLATES[0]["DIRS"] = [os.path.join(BASE_DIR, "frontend", "build")]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
