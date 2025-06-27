@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8002c7c.css",
-    "main.js": "/static/js/main.4ea6415c.js",
+    "main.css": "/static/css/main.b4366374.css",
+    "main.js": "/static/js/main.7ea139d7.js",
     "static/js/453.670e15c7.chunk.js": "/static/js/453.670e15c7.chunk.js",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.5dd918926d41224c8142.ttf",
+    "static/media/wheel_of_fortune.png": "/static/media/wheel_of_fortune.a9391d515f36ffa5cbf0.png",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.116fcd4fd987818c5d98.ttf",
+    "static/media/gold_pepe.png": "/static/media/gold_pepe.9605bbbf37705fe96a27.png",
     "static/media/gh_case.png": "/static/media/gh_case.b061dc2baf0509e09d5b.png",
+    "static/media/green_arrow.png": "/static/media/green_arrow.058c99e9a93bbf571a7b.png",
+    "static/media/green_cigar.png": "/static/media/green_cigar.489702e43cda7ad8dd36.png",
+    "static/media/irish_gold.webp": "/static/media/irish_gold.594e735adffc273abe1d.webp",
+    "static/media/monkey.webp": "/static/media/monkey.e2896d4f0034ec007748.webp",
+    "static/media/grey_cigar.webp": "/static/media/grey_cigar.e53eb87dece87b0aea11.webp",
+    "static/media/lights.webp": "/static/media/lights.7ca8e9ea00373393596c.webp",
+    "static/media/gene_grey.webp": "/static/media/gene_grey.cd2b206f534f4d550993.webp",
     "index.html": "/index.html",
-    "main.c8002c7c.css.map": "/static/css/main.c8002c7c.css.map",
-    "main.4ea6415c.js.map": "/static/js/main.4ea6415c.js.map",
+    "main.b4366374.css.map": "/static/css/main.b4366374.css.map",
+    "main.7ea139d7.js.map": "/static/js/main.7ea139d7.js.map",
     "453.670e15c7.chunk.js.map": "/static/js/453.670e15c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8002c7c.css",
-    "static/js/main.4ea6415c.js"
+    "static/css/main.b4366374.css",
+    "static/js/main.7ea139d7.js"
   ]
 }
